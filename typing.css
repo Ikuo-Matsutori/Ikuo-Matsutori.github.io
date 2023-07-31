@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background-image: url(toyota-bev-akio-1.jpg);
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: flex-start;
+    justify-content: flex-start;
+    background-color: white;
+    width: 500px;
+    height: 500px;
+}
+
+#subtitle {
+    font-size: 30px;
+}
+
+#maintitle {
+    font-size: 50px;
+    color: red;
+}
+
+#target-word {
+    font-size: 20px;
+    background-color:aliceblue;
+}
+
+#textInput {
+    font-size: 20px;
+}
+
+#commentDisplay {
+    font-size: 20px;
+    background-color: yellow;
+}
